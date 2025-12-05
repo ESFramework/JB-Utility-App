@@ -4,7 +4,7 @@ import '../models/product.dart';
 class ProductTableRow extends StatelessWidget {
   final Product product;
 
-  const ProductTableRow({Key? key, required this.product}) : super(key: key);
+  const ProductTableRow({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {

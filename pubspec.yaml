@@ -41,12 +41,7 @@ dependencies:
   intl: ^0.18.1
   path_provider: ^2.1.1
   flutter_animate: ^4.3.0
-  # Update checker dependencies
-  http: ^1.1.0
-  crypto: ^3.0.3
-  package_info_plus: ^4.2.0
-  permission_handler: ^11.0.1
-  dio: ^5.3.2
+  # Update checker dependencies removed
   
 dev_dependencies:
   flutter_test:

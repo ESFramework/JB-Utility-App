@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import '../theme/theme_provider.dart';
-import '../services/update_provider.dart';
-import '../widgets/update_checker_section.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -94,17 +92,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
               ),
               const SizedBox(height: 20),
-              Text(
-                'Updates',
-                style: TextStyle(
-                  color: themeProvider.textColor,
-                  fontSize: 12,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(height: 20),
-              const UpdateCheckerSection(),
-              const SizedBox(height: 20),
+              // Updates section removed
               Text(
                 'About',
                 style: TextStyle(
@@ -133,7 +121,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      'Version 1.0.0',
+                      'Version 1.0.3',
                       style: TextStyle(
                         color: themeProvider.textColorSecondary,
                         fontSize: 12,
